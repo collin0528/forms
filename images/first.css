@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+}
+
+.container{
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.index{
+    background: lightgreen;
+    padding-bottom: 3em;
+}
+
+.block{
+    display: block;
+}
+
+
+.checked{
+    color: green;
+    font-weight: bolder;
+}
+
+.not-checked{
+    color: red;
+    font-weight: bolder;
+}
+
+.mt-2{
+    margin-top: 20px;
+}
+
+input[type='text'],input[type='email'], input[type='password']{
+    height: 30px;
+    width: 300px;
+}
+
+.error{
+    background-color: red;
+    color: black;
+    padding: 10px; 
+}
+
+.success{
+    background-color: lightgreen;
+    color: black;
+    padding: 10px; 
+}
+
+

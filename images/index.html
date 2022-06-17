@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="first.css">
+    <title>form</title>
+</head>
+<body>
+
+
+    <nav><a href="http://localhost:4000/">Home</a> |<a href="http://localhost:4000/contact-us">Contact Us</a> </nav>
+   
+    
+
+    <div class="index" id="container">
+        <div id="form-info"></div>
+        <form id="create-user-form" method="POST" enctype="multipart/form-data">
+            <div>
+                <label class="block">Username</label>
+                <input type="text" name="username">
+            </div>
+
+            <div>
+                <label class="block">Password</label>
+                <input type="password" name="password">
+            </div>
+
+        
+        </form>
+
+        
+       
+        <div style="margin-top: 50px;">
+            <button type="button" onclick="loadRegistrationPage()">Register Page</button>
+        </div>
+    </div>
+
+        <script src="first.js"></script>
+    
+</body>
+</html>
